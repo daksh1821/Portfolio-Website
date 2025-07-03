@@ -107,39 +107,22 @@ const Hero = () => {
               }}
             >
               <Button
-                variant="contained"
-                size="large"
-                startIcon={<Download />}
-                href="/Daksh_Jain_Resume_2025.pdf" // Update path if needed
-                target="_blank"
-                sx={{
-                  background: 'linear-gradient(45deg, #1e40af 30%, #7c3aed 90%)',
-                  '&:hover': {
-                    background: 'linear-gradient(45deg, #1e3a8a 30%, #5b21b6 90%)',
-                    transform: 'scale(1.05)',
-                  },
-                }}
-              >
-                View Resume
-              </Button>
-              <Button
-                variant="outlined"
-                size="large"
-                endIcon={<ArrowForward />}
-                href="#contact"
-                sx={{
-                  borderColor: theme.palette.primary.main,
-                  color: theme.palette.primary.main,
-                  '&:hover': {
-                    backgroundColor:
-                      theme.palette.mode === 'light'
-                        ? 'rgba(59, 130, 246, 0.04)'
-                        : 'rgba(59, 130, 246, 0.08)',
-                  },
-                }}
-              >
-                Let's Connect
-              </Button>
+  variant="contained"
+  size="large"
+  startIcon={<Download />}
+  href="Resume_daksh.pdf" // Must be inside /public
+  target="_blank"
+  rel="noopener noreferrer"
+  sx={{
+    background: 'linear-gradient(45deg, #1e40af 30%, #7c3aed 90%)',
+    '&:hover': {
+      background: 'linear-gradient(45deg, #1e3a8a 30%, #5b21b6 90%)',
+      transform: 'scale(1.05)',
+    },
+  }}
+>
+  View Resume
+</Button>
             </Box>
           </motion.div>
 
@@ -155,7 +138,7 @@ const Hero = () => {
                 { icon: <LinkedIn />, href: 'https://www.linkedin.com/in/daksh-jain-5620b5251/' },
                 { icon: <Email />, href: 'mailto:daksh2872004@gmail.com' },
                 { icon: <Code />, href: 'https://leetcode.com/Java_king_/' },
-                { icon: <Language />, href: 'https://dakshjain.dev' }, // update if your personal site is different
+                { icon: <Language />, href: 'https://expense-tracker-frontend-hw82.onrender.com' },
               ].map((social, index) => (
                 <IconButton
                   key={index}

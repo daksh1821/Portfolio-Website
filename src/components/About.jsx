@@ -13,7 +13,7 @@ const About = () => {
     },
     {
       icon: <Storage />,
-      title: 'Database Expert',
+      title: 'Database',
       subtitle: 'SQL & NoSQL',
       color: '#7c3aed',
     },
@@ -118,7 +118,7 @@ const About = () => {
                 </Typography>
                 <Typography variant="body1" color="text.secondary" paragraph>
                   I'm a final-year B.Tech CSE student at Bennett University, deeply passionate about 
-                  full-stack development, artificial intelligence, and solving real-world problems 
+                  full-stack development, Data Structures and Algorithms, and solving real-world problems 
                   through innovative technology solutions.
                 </Typography>
                 <Typography variant="body1" color="text.secondary" paragraph>

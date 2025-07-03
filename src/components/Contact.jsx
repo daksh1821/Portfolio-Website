@@ -44,25 +44,25 @@ const Contact = () => {
     {
       icon: <Email />,
       title: 'Email',
-      value: 'daksh.jain@example.com',
+      value: 'daksh2872004@gmail.com',
       color: '#1e40af',
     },
     {
       icon: <GitHub />,
       title: 'GitHub',
-      value: 'github.com/dakshjain97',
+      value: 'github.com/daksh1821',
       color: '#7c3aed',
     },
     {
       icon: <LinkedIn />,
       title: 'LinkedIn',
-      value: 'linkedin.com/in/dakshjain97',
+      value: 'https://www.linkedin.com/in/daksh-jain-5620b5251/',
       color: '#059669',
     },
     {
       icon: <Code />,
       title: 'LeetCode',
-      value: 'leetcode.com/dakshjain97',
+      value: 'https://leetcode.com/u/Java_king_',
       color: '#ea580c',
     },
   ];
@@ -244,6 +244,8 @@ const Contact = () => {
                 size="large"
                 fullWidth
                 startIcon={<Download />}
+                href="/Resume_daksh.pdf"         // ✅ Path to file
+                download 
                 sx={{
                   borderColor: 'primary.main',
                   color: 'primary.main',

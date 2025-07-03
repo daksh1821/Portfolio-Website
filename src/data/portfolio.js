@@ -1,36 +1,35 @@
 export const projects = [
   {
     id: '1',
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.',
-    techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe', 'JWT'],
-    githubUrl: 'https://github.com/dakshjain97',
-    liveUrl: 'https://ecommerce-demo.com',
+    title: 'Expense Tracker App – “Save Smartly"',
+    description: 'A full-stack MERN real-time expense tracker with authentication, transaction history, charts, and secure CRUD operations.' ,
+    techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Material UI','Redux', 'JWT'],
+    githubUrl: 'https://github.com/daksh1821/Real-time-Expense-tracker',
+    liveUrl: 'https://expense-tracker-frontend-hw82.onrender.com',
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '2',
-    title: 'AI Chat Application',
-    description: 'Real-time chat application with AI integration using OpenAI API. Features include message history, user authentication, and responsive design.',
-    techStack: ['React', 'Socket.io', 'OpenAI API', 'Express', 'PostgreSQL'],
-    githubUrl: 'https://github.com/dakshjain97',
-    liveUrl: 'https://ai-chat-demo.com',
+    title: 'Grade Genius',
+    description: 'Designed an AI-powered teacher assistant App (Grade Genius) using Flutter, Firebase, and Gemini AI to automate grading and provide personalized feedback, enhancing educational efficiency.',
+    techStack: ['Flutter', 'FastAPI', 'OpenAI API', 'OCR', 'Firebase', 'NodeJS',"Twilio", 'Dart'],
+    githubUrl: 'https://github.com/daksh1821/Grade_Genius',
     image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '3',
-    title: 'Task Management System',
-    description: 'Collaborative task management platform with real-time updates, file sharing, and team collaboration features.',
-    techStack: ['Next.js', 'Prisma', 'PostgreSQL', 'Material-UI', 'WebSocket'],
-    githubUrl: 'https://github.com/dakshjain97',
+    title: 'Quick-Groc',
+    description: 'Built a MERN stack-based grocery delivery platform with React.js, Node.js, Express.js, MongoDB and Tailwind CSS, enabling seamless product browsing, cart management.',
+    techStack: ['Node.js', 'ExpressJS', 'MongoDB', 'Material-UI', 'Tailwind CSS',"HTML","CSS"],
+    githubUrl: 'https://github.com/daksh1821/Quick-Groc',
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '4',
-    title: 'Weather Analytics Dashboard',
-    description: 'Data visualization dashboard for weather analytics with interactive charts and real-time weather data integration.',
-    techStack: ['React', 'D3.js', 'Python', 'Flask', 'Weather API'],
-    githubUrl: 'https://github.com/dakshjain97',
+    title: 'Jira-app',
+    description: 'A task management and issue tracking app built with drag-and-drop boards, user stories, and sprint planning. Supports project-based workflows, team assignments, and real-time updates — inspired by Atlassian`s Jira.',
+    techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Material UI','Redux', 'JWT'],
+    githubUrl: 'https://github.com/daksh1821/Jira-app',
     image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800'
   }
 ];
@@ -38,18 +37,17 @@ export const projects = [
 export const experiences = [
   {
     id: '1',
-    title: 'Full-Stack Developer Intern',
-    company: 'TechCorp Solutions',
-    duration: '2024 - Present',
-    description: 'Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.',
+    title: 'Smart India Hackathon(SIH)',
+    duration: '2023-SEP',
+    description: 'Top 15% – Smart India Hackathon 2023 (Rank: 37/250 Teams)',
     type: 'work'
   },
   {
     id: '2',
-    title: 'Frontend Developer',
-    company: 'StartupXYZ',
-    duration: '2023 - 2024',
-    description: 'Built responsive user interfaces and improved application performance. Worked on UI/UX improvements and implemented modern design patterns.',
+    title: 'IEEE Resem 3rd Prize',
+    company: 'IEEE',
+    duration: '2023-JAN',
+    description: 'Awarded 3rd Prize in the IEEE Research Seminar (RESEM) for contributing innovative insights on the ’MULTIVERSE’.',
     type: 'work'
   },
   {
@@ -57,15 +55,15 @@ export const experiences = [
     title: 'B.Tech Computer Science Engineering',
     company: 'Bennett University',
     duration: '2022 - 2026',
-    description: 'Relevant coursework: Data Structures, Algorithms, Database Management, Software Engineering, Computer Networks. Active in coding competitions and hackathons.',
+    description: 'Relevant coursework: Data Structures, Algorithms, Database Management, Software Engineering, Operating System. Active in coding competitions and hackathons.',
     type: 'education'
   },
   {
     id: '4',
-    title: 'GeeksforGeeks Campus Ambassador',
+    title: 'GeeksforGeeks Tech Member',
     company: 'GeeksforGeeks',
-    duration: '2023 - Present',
-    description: 'Conducted workshops on competitive programming and DSA. Mentored junior students and organized coding events.',
+    duration: '2023-JAN -- 2023-MAY',
+    description: 'Designed and conducted 4 interactive coding workshops to teach programming concepts and techniques',
     type: 'work'
   }
 ];
@@ -73,18 +71,21 @@ export const experiences = [
 export const skills = [
   { name: 'React', icon: 'Code', category: 'Frontend' },
   { name: 'JavaScript', icon: 'Code', category: 'Frontend' },
-  { name: 'Next.js', icon: 'Layers', category: 'Frontend' },
+  { name: 'JavaScript', icon: 'Code', category: 'Programming Languages' },
+  { name: 'HTML', icon: 'Layers', category: 'Frontend' },
   { name: 'Material-UI', icon: 'Palette', category: 'Frontend' },
+  { name: 'CSS', icon: 'Style', category: 'Frontend' },
   { name: 'Node.js', icon: 'Storage', category: 'Backend' },
   { name: 'Express', icon: 'FlashOn', category: 'Backend' },
   { name: 'MongoDB', icon: 'Storage', category: 'Backend' },
-  { name: 'PostgreSQL', icon: 'Storage', category: 'Backend' },
-  { name: 'Python', icon: 'Code', category: 'Backend' },
+  { name: 'SQL', icon: 'Storage', category: 'Backend' },
   { name: 'Git', icon: 'AccountTree', category: 'Tools' },
   { name: 'Docker', icon: 'Inventory', category: 'Tools' },
   { name: 'AWS', icon: 'Cloud', category: 'Tools' },
   { name: 'VS Code', icon: 'Code', category: 'Tools' },
+  { name: 'Java', icon: 'Code', category: 'Programming Languages' },
+  { name: 'Data Structures & Algorithms', icon: 'Extension', category: 'Soft Skills' },
   { name: 'Problem Solving', icon: 'Extension', category: 'Soft Skills' },
   { name: 'Team Leadership', icon: 'Group', category: 'Soft Skills' },
-  { name: 'Communication', icon: 'Chat', category: 'Soft Skills' }
+
 ];

@@ -178,7 +178,7 @@ const Projects = () => {
               variant="contained"
               size="large"
               endIcon={<ArrowForward />}
-              href="https://github.com/dakshjain97"
+              href="https://github.com/daksh1821"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
