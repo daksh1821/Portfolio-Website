@@ -1,12 +1,12 @@
 export const projects = [
   {
     id: '1',
-    title: 'Expense Tracker App – “Save Smartly"',
+    title: 'Expense Tracker Web App – “Save Smartly"',
     description: 'A full-stack MERN real-time expense tracker with authentication, transaction history, charts, and secure CRUD operations.' ,
     techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Material UI','Redux', 'JWT'],
     githubUrl: 'https://github.com/daksh1821/Real-time-Expense-tracker',
     liveUrl: 'https://expense-tracker-frontend-hw82.onrender.com',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://img.freepik.com/free-vector/finance-department-employees-are-calculating-expenses-company-s-business_1150-41782.jpg'
   },
   {
     id: '2',
@@ -22,7 +22,7 @@ export const projects = [
     description: 'Built a MERN stack-based grocery delivery platform with React.js, Node.js, Express.js, MongoDB and Tailwind CSS, enabling seamless product browsing, cart management.',
     techStack: ['Node.js', 'ExpressJS', 'MongoDB', 'Material-UI', 'Tailwind CSS',"HTML","CSS"],
     githubUrl: 'https://github.com/daksh1821/Quick-Groc',
-    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://www.shutterstock.com/image-vector/vector-illustration-online-grocery-store-260nw-1891418965.jpg'
   },
   {
     id: '4',
@@ -30,7 +30,7 @@ export const projects = [
     description: 'A task management and issue tracking app built with drag-and-drop boards, user stories, and sprint planning. Supports project-based workflows, team assignments, and real-time updates — inspired by Atlassian`s Jira.',
     techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Material UI','Redux', 'JWT'],
     githubUrl: 'https://github.com/daksh1821/Jira-app',
-    image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://projectsly.com/images/task-management-system-screenshot-1.png?v=1691124479409199525'
   }
 ];
 
@@ -76,12 +76,17 @@ export const skills = [
   { name: 'Material-UI', icon: 'Palette', category: 'Frontend' },
   { name: 'CSS', icon: 'Style', category: 'Frontend' },
   { name: 'Node.js', icon: 'Storage', category: 'Backend' },
+  { name: 'OAuth', icon: 'Storage', category: 'Backend' },
   { name: 'Express', icon: 'FlashOn', category: 'Backend' },
   { name: 'MongoDB', icon: 'Storage', category: 'Backend' },
   { name: 'SQL', icon: 'Storage', category: 'Backend' },
   { name: 'Git', icon: 'AccountTree', category: 'Tools' },
-  { name: 'Docker', icon: 'Inventory', category: 'Tools' },
-  { name: 'AWS', icon: 'Cloud', category: 'Tools' },
+  { name: 'GitHub', icon: 'GitHub', category: 'Tools' },
+  { name: 'Postman', icon: 'PostAdd', category: 'Tools' },
+  { name: 'Figma', icon: 'DesignServices', category: 'Design & UI Tools' },
+  { name: 'Material UI', icon: 'DesignServices', category: 'Design & UI Tools' },
+  { name: 'Bootstrap', icon: 'DesignServices', category: 'Design & UI Tools' },
+  { name: 'JWT', icon: 'Inventory', category: 'Backend' },
   { name: 'VS Code', icon: 'Code', category: 'Tools' },
   { name: 'Java', icon: 'Code', category: 'Programming Languages' },
   { name: 'Data Structures & Algorithms', icon: 'Extension', category: 'Soft Skills' },

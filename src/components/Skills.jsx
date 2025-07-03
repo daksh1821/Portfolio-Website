@@ -5,7 +5,7 @@ import * as Icons from '@mui/icons-material';
 import { skills } from '../data/portfolio';
 
 const Skills = () => {
-  const categories = ['Frontend', 'Backend', 'Tools', 'Programming Languages','Soft Skills'];
+  const categories = ['Frontend','Programming Languages', 'Backend', 'Tools','Design & UI Tools','Soft Skills'];
 
   const getIcon = (iconName) => {
     const IconComponent = Icons[iconName] || Icons.Code;
@@ -48,7 +48,7 @@ const Skills = () => {
 
         <Grid container spacing={4}>
           {categories.map((category, categoryIndex) => (
-            <Grid item xs={12} sm={6} md={4} lg={2.4} key={category}>
+            <Grid item xs={12} sm={6} md={4} lg={4.0} key={category}>
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}

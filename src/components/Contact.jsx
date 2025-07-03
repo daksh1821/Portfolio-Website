@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import emailjs from 'emailjs-com';
 import {
   Box,
   Container,
@@ -20,6 +21,8 @@ import {
   Download,
 } from '@mui/icons-material';
 
+
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -29,9 +32,24 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormData({ name: '', email: '', message: '' });
+  
+    emailjs.send(
+      'service_zmca9sk',         // Replace with your service ID
+      'template_8g9z93g',        // Replace with your template ID
+      formData,                  // { name, email, message }
+      'xLl5cwPUmkkGP-Srz'             // Or your public key
+    )
+    .then((result) => {
+      console.log('Message sent:', result.text);
+      alert('Message sent successfully!');
+      setFormData({ name: '', email: '', message: '' });
+    })
+    .catch((error) => {
+      console.error('Error:', error.text);
+      alert('Failed to send message. Please try again.');
+    });
   };
+  
 
   const handleChange = (e) => {
     setFormData({
